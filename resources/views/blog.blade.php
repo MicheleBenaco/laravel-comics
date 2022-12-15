@@ -1,0 +1,44 @@
+{{-- Questo mette il layouts di base uguale per tutti  --}}
+@extends('layouts.app')
+{{-- cambio titolo --}}
+ @section('page-title','Blog-DC')
+
+{{-- mentre con questo stotisco allo yield con il codice dentro questa pagina --}}
+@section('content')
+<div class="container">
+    <div class="heading">
+        <h1>Blog Title</h1>
+        <h1>Sub Heading</h1>
+        <h1>Date</h1>
+    </div>
+    <div class="paragraph">
+        <div class="para-one">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit voluptatem, corporis, accusantium asperiores sequi quidem deseru <span>Red Alert</span> nt quam officiis quae, fugum sint?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis mollitia <span>Red Alert</span> dolore assumenda est exercitationem dignissimos quas, suscipit sequi enim distinctio facilis, tenetur totam molestias iure harum eveniet! Quos, asperiores tenetur.</p>
+            <p>Lorem ipsum dolor sit amet ul consectetur adipisicing elit. Quisquam susietllum doloribus nesciunt neque.</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </li>
+                <li>Lorem it amet consectetur adipisicing elit.  </li>
+                <li>Lorem ipsum ctetur adipisicing elit.  </li>
+            </ul><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate quam expedita rerum, voluptatibus vel, perferendis, aliquam dolorem possimus similique alias totam ex. Repellendus iste quod in impedit quae autem.</p>
+            <span> Lorem ipsum dsadolor sitasdasd, ametsad consectetur adipisicing.</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fuga hic omnis rem officiis, obcaecati perferendis, quam temporibus soluta enim illo rerum voluptate blanditiis, aliquam nulla. Aut eum esse aperiam!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. aAt, dolssimus aut atque. Exercitationem venim error nisi perferendis. Eligendt. aAt, dolssimus aut atque. Exercitationem venim rem ipsum dolor sit amet consectetur atis fuga qui sint inventore quas tenetur iste.</p>
+        </div>
+        <div class="para-two">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, quos provident explicabo labore porro, blanditiis alias atque tenetur cumque laudantium nulla quae vel. Debitis saepe quae minima, expedita voluptatem recusandae.lore Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci autem vero, dolorem quos odit eos dolores, corporis molestiae rem omnis quasi nisi inventore tempore numquam! Ipsa animi itaque similique enim!lore  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius voluptas ex inventore ullam porro nesciunt sapiente corporis ea voluptates totam exercitationem doloremque quaerat non labore mollitia aut placeat, tempora amet. </p><p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem inventore enim unde quia! Quos facere accusantiumue atque pariatur ad soluta mollitia maxime eos? Nulla suscipit dolorum inventore at, tenetur, animi, expedita fugiat officiis minus tempore cumque odit?
+            </p>
+            <img src="https://i.postimg.cc/0N0PTwBq/img2.jpg" alt="">
+        </div>
+        <div class="para-three">
+            <img src="https://i.postimg.cc/fyrwHQgt/img1.jpg" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, quos provident explicabo labore porro, blanditiis alias atque tenetur cumque laudantium nulla quae vel. Debitis saepe quae minima, expedita voluptatem recusandae.lore Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci autem vero, dolorem quos odit eos dolores, cos ea voluptates totam exercitationem doloremque quaerat non labore mollitia aut placeat, tempora amet. </p><p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptas aut ducimus adipisci inventore possimus ullam accusantium! Pariatur eius reiciendis qui maxime, iusto exercitationem enim. Incidunt pouptas aut ducimus adipisci inventore possimus ullam accusantium! Pariatur eius reiciendis qui maxime, iusto exercitationem enim. Incidunt porro unde fugit vel.
+            </p>
+            
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>
+@endsection
